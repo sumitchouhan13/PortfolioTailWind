@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="text-gray-600 font-mono">
+    <div class="md:grid grid-cols-3">
+        <div class="md:col-span-1 md:flex md:justify-end">
+            <nav class="text-right">
+                <div class="flex justify-between items-center">
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="/" class="text-xl md:text-4xl hover:text-gray-700">
+                            Portfolio
+                        </a>
+                    </h1>
+                    <div class="px-4 cursor-pointer md:hidden" id="drop">
+                        <svg class="w-6" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
+                </div>
+                <ul class="text-sm mt-6 hidden md:block" id="menu">
+                    <li class="text-gray-900 font-bold py-1">
+                        <a href="#" class="px-4 flex justify-end border-r-4 hover:border-red-700 border-white">
+                            <span>Home</span>
+                            <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-gray-900 font-bold py-1">
+                        <a href="#" class="px-4 flex justify-end border-r-4 hover:border-red-700 border-white">
+                            <span>About</span>
+                            <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-gray-900 font-bold py-1">
+                        <a href="#" class="px-4 flex justify-end border-r-4 hover:border-red-700 border-white">
+                            <span>Contact</span>
+                            <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+            <div class="flex justify-center md:justify-end">
+                <a href="#"
+                    class="rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider text-primary md:border-red-700 border-2 hover:bg-red-500 hover:text-white transition ease-out duration-500">Button
+                    1</a>
+                <a href="#"
+                    class="rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider text-primary md:border-red-700 border-2 ml-4 hover:bg-red-500 hover:text-white transition ease-out duration-500">Button
+                    2</a>
+            </div>
+            <header>
+                <h2 class="text-gray-900 text-6xl font-semibold">PORTFOLIO</h2>
+                <h3 class="text-2xl font-semibold hover:text-red-500 cursor-pointer">SUMIT CHOUHAN</h3>
+                <h5>This side Sumit , I've knowledge of Machine Learning , Artificial Intelligence , Android Development
+                    , Full Stack Development. </h5>
+            </header>
+            <div>
+                <h4 class="font-bold text-xl mt-12 pb-2 border-b border-gray-200">Projects</h4>
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <a href="https://github.com/sumitchouhan13/CRUD_APP" target="_blank">
+                            <img src="img/react.png" alt="reactjs" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Project : CAPSTONE PROJECT</span>
+                                <span class="block text-gray-500 text-sm">Individual Project</span>
+                            </div>
+                            <div
+                                class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>Time Spent : 3 Months</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <a href="https://github.com/sumitchouhan13/Competitive_Coding_Repo" target="_blank">
+                            <img src="img/Java.jpg" alt="java" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Project : JAVA PROJECT</span>
+                                <span class="block text-gray-500 text-sm">Individual Project</span>
+                            </div>
+                            <div
+                                class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>Time Spent : 1 Month</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <a href="https://github.com/sumitchouhan13/FaceMesh_Youtube_App" target="_blank">
+                            <img src="img/ml.png" alt="machinelearning" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Project : MACHINE LEARNING PROJECT</span>
+                                <span class="block text-gray-500 text-sm">Individual Project</span>
+                            </div>
+                            <div
+                                class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>Time Spent : 1 Month</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <a href="https://github.com/sumitchouhan13/Sap_App_Hackathon" target="_blank">
+                        <img src="img/sap.png" alt="sap" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Project : SAP Hackcathon Project</span>
+                            <span class="block text-gray-500 text-sm">Team Project</span>
+                        </div>
+                        <div
+                            class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Time Spent : 1 Month</span>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <a href="https://github.com/sumitchouhan13/SnakeandLadder_ipynb" target="_blank">
+                        <img src="img/python.png" alt="python" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Project : Snakes and Ladder Game</span>
+                            <span class="block text-gray-500 text-sm">Individual Project</span>
+                        </div>
+                        <div
+                            class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Time Spent : 0.5 Month</span>
+                        </div>
+                    </a>
+                    </div>
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <a href="https://github.com/sumitchouhan13/Portfolio_project" target="_blank">
+                        <img src="img/html.jpg" alt="html" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Project : PORTFOLIO PROJECT</span>
+                            <span class="block text-gray-500 text-sm">Individual Project</span>
+                        </div>
+                        <div
+                            class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Time Spent : 0.5 Month</span>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <h4 class="font-bold text-xl mt-12 pb-2 border-b border-gray-200">Experience</h4>
+                <div class="mt-8 grid lg:grid-cols-2 gap-10">
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <img src="img/hr.jpg" alt="highradius" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">ROLE : Winter Intern</span>
+                            <span class="block text-gray-500 text-sm">Location : Bhubaneswar</span>
+                        </div>
+                        <div
+                            class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Time Spent : 3 Months</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded overflow-hidden shadow-md relative transform hover:scale-105 hover:shadow-2xl">
+                        <img src="img/iezal.png" alt="iezal" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">ROLE : SDE Intern</span>
+                            <span class="block text-gray-500 text-sm">Location : Jaipur</span>
+                        </div>
+                        <div
+                            class="bg-gray-400 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Time Spent : 2 Month</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center py-3">
+                    <div
+                        class="rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider text-secondary-200 bg-gray-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
+                        Load More</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
